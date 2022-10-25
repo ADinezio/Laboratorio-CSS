@@ -1,0 +1,50 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  font-size: 16px;
+}
+
+.header__h1 {
+  color: #f00;
+  font-size: 5rem;
+  font-weight: 200;
+  text-align: center;
+  margin: 5rem 0;
+}
+.main {
+  margin: 0 auto;
+}
+
+.section1 {
+  padding: 1rem 0.5rem;
+  border: 3px solid #f00;
+  color: #457b9d;
+}
+
+.section1__text-1 b {
+  background-color: yellow;
+}
+
+.section2 {
+  padding: 2rem;
+  color: #2a9d8f;
+}
+
+.section2 span {
+  text-decoration: underline;
+}
+
+.main {
+  width: 80%;
+}
+
+.container {
+  height: 100%;
+}
